@@ -1,6 +1,3 @@
----
-# Core Pure Chapter 7: Differential Equations
----
 # Core Pure Chapter 7: Differential Equations
 ---
 <div>
@@ -28,6 +25,7 @@ A lot of this is used in physics (as we will see more in the next chapter). To g
 </span>
 
 ---
+
 <div>
 <h3> History:  </h6>
 </div>
@@ -52,7 +50,9 @@ where $y$ is an unknown function of $x$ (or $x_{1}, x_{2}$).
 <!-- .element: class="fragment" data-fragment index ="2"-->
 
 </span>
+
 ---
+
 <div>
 <h3> History:  </h6>
 </div>
@@ -74,12 +74,14 @@ After them, greats like Leonhard Euler, Daniel Bernoulli, and Joseph-Louis Lagra
 </span>
 
 ---
+
 <div class = 'text'>
 <b><h3>Chapter Objective</h3></b>
 
 - Solve First Order ODEs <!-- .element: class="fragment" -->
 - Solve Second Order ODEs <!-- .element: class="fragment" -->
 </div>
+
 ---
 ## Part 1: First Order Differential Equations: 
 ---
@@ -91,6 +93,7 @@ In this part, we will typically use $\frac{dy}{dx}$ to express our equations. Th
 <!-- .element: class="fragment" --> 
 
 ---
+
 <div>
 <h3> Example 1.1:  </h6>
 </div>
@@ -153,6 +156,7 @@ $$(a)\ \frac{dy}{dx}=x\cos ^{2} y$$
 $$(b)\ \frac{dy}{dx}=e ^{x+y}$$
 
 $$(c)\ \frac{dy}{dx}=e ^{x-y}$$
+
 ---
 
 <div class = 'text'>
@@ -170,7 +174,9 @@ Note that all variables are $\ge 0$, and treat $R$ and $C$ as constants
 <!-- .element: class="fragment"-->
 
 </span>
+
 ---
+
 <div class = 'text'>
 <b2><h3>Practice 1.3: Charging Capacitor</h3></b2>
 </div>
@@ -185,11 +191,13 @@ Note that all variables are $\ge 0$, and treat $R$, $C$, and $\epsilon$ as const
 <!-- .element: class="fragment"-->
 
 </span>
+
 ---
 
 Unfortunately, not all first order differential equations are like the ones given above.
 
 ---
+
 <div class = 'text'>
 <b2><h3>Example 1.2: </h3></b2>
 </div>
@@ -230,6 +238,7 @@ By partial integration and some rearranging, we get $y=x-1+Ce^{-x}$
 </span>
 
 ---
+
 <span style="font-size:0.8em">
 
 For first order differential equations in the form of: 
@@ -251,7 +260,9 @@ It is worth noting that we can safely ignore the $+C$ for the integration on the
 <!-- .element: class="fragment"-->
 
 </span>
+
 --
+
 <span style="font-size:0.8em">
 
 We can easily prove the integrating factor. 
@@ -291,6 +302,7 @@ Hence: $f(x)=e ^{\int P(x)dx}$
 
 
 ---
+
 <div>
 <b><h3>Practice 1.4: Non-physics ones</h3></b>
 </div>
@@ -303,6 +315,7 @@ $$(b)\ x^2\frac{dy}{dx}+2xy=2x+1$$
 $$(c) \frac{dy}{dx}+y\cot x =1$$
 
 ---
+
 <div>
 <b><h3>Practice 1.5: Reattempt Charging Capacitor</h3></b>
 </div>
@@ -323,6 +336,7 @@ As an extension, think about why both methods worked for this differential equat
 <!-- .element: class="fragment"-->
 
 ---
+
 <div>
 <b><h3>Practice 1.6: Velocity-dependent Drag</h3></b>
 </div>
@@ -346,7 +360,6 @@ $$x\frac{dy}{dx}+5y=\frac{\ln x}{x}, \ x>0$$
 </div>
 
 --
-
 <!-- .slide: data-auto-animate -->
 <div>
 <b><h3>Exam Style Practice 1: </h3></b>
@@ -395,6 +408,7 @@ $\Delta = b^{2} -4ac$
 <!-- .element: class="fragment"-->
 
 ---
+
 <div>
 <b><h3>General Solutions: </h3></b>
 </div>
@@ -418,6 +432,7 @@ $$y=e^{px}(A\cos qx+B\sin qx)$$
 <!-- .element: class="fragment" data-fragment-index="6"-->
 
 ---
+
 <div class = 'text'>
 <b2><h3>Example 2.1: </h3></b2>
 </div>
@@ -444,6 +459,7 @@ where $A, B$ are constants to be determined
 </span>
 
 ---
+
 <div>
 <b><h3>Practice 2.1: </h3></b>
 </div>
@@ -473,6 +489,7 @@ This is called <span style="color: rgb(162, 73, 22)">Heterogeneous</span> (or <s
 <!-- .element: class="fragment" data-fragment-index="3"-->
 
 ---
+
 <span style='font-size:0.8em'>
 
 <!-- .slide: data-auto-animate -->
@@ -629,6 +646,7 @@ $$\frac{d^{2}y}{dx^{2}}+25y=3\cos5x$$
 </div>
 
 ---
+
 So far we have ignored the constants. With additional information, we can also work out the particular solution to a differential equation using <span style="color: rgb(162, 73, 22)">boundary conditions</span>. 
 <!-- .element: class="fragment"-->
 
@@ -696,7 +714,6 @@ Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
 
 --
 <!-- .slide: data-auto-animate -->
-
 <span style='font-size: 0.7em'>
 <div class = 'text'>
 <b2><h3>Exam Style Practice 3: </h3></b2>
