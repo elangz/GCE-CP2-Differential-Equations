@@ -151,9 +151,8 @@ $$(b)\ \frac{dy}{dx}=e ^{x+y}$$
 
 $$(c)\ \frac{dy}{dx}=e ^{x-y}$$
 ---
-
 <div class = 'text'>
-<b2><h3>Answers 1.1</h3></b2>
+<b2><h3>Answers 1.1: Non-physics ones</h3></b2>
 </div>
 
 $$(a) \tan{y}=\frac12x^2​+C$$
@@ -180,6 +179,14 @@ Note that all variables are $\ge 0$, and treat $R$ and $C$ as constants
 </span>
 ---
 <div class = 'text'>
+<b2><h3>Answers 1.2: Discharging Capacitor</h3></b2>
+</div>
+
+$$Q=Q_0 e^{-\frac{t}{RC}}$$
+
+
+---
+<div class = 'text'>
 <b2><h3>Practice 1.3: Charging Capacitor</h3></b2>
 </div>
 
@@ -193,6 +200,14 @@ Note that all variables are $\ge 0$, and treat $R$, $C$, and $\epsilon$ as const
 <!-- .element: class="fragment"-->
 
 </span>
+
+---
+<div class = 'text'>
+<b2><h3>Answers 1.3: Charging Capacitor</h3></b2>
+</div>
+
+$$Q=\epsilon C(1-e^{-\frac{t}{RC}})$$
+
 ---
 
 Unfortunately, not all first order differential equations are like the ones given above.
@@ -313,7 +328,7 @@ $$(c)\ 4xy\frac{dy}{dx}+2y^2=x^2$$
 ---
 
 <div>
-<b><h3>Answers 1.4</h3></b>
+<b><h3>Answers 1.4: Non-physics ones</h3></b>
 </div>
 
 $$(a)\ y=1-\frac1x +\frac{C}{x^2}$$
@@ -351,6 +366,13 @@ A ball is dropped from a sufficient height and is in free fall, experiencing a v
 
 Hint: $m\frac{dv}{dt} = mg - 10^{-7}v$
 <!-- .element: class="fragment"-->
+
+---
+<div>
+<b><h3>Answers 1.6: Velocity-dependent Drag</h3></b>
+</div>
+
+$$v=10^{7} mg(1-e^{-\frac{k}{m}t})$$
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -478,7 +500,7 @@ $$(c)\ \frac{d^2y}{dx^2}-6\frac{dy}{dx}+34y=0$$
 ---
 
 <div>
-<b><h3>Answers 2.1: </h3></b>
+<b><h3>Answers 2.1: Some homogeneous ones</h3></b>
 </div>
 
 $$(a)\ y=Ae^{-\frac{3}{2}x} + Be^{-x}$$
@@ -618,7 +640,7 @@ $$(b)\ \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = 25 \cos 2x$$
 $$(c)\ \frac{d^2y}{dx^2} - 2\frac{dy}{dx} = 3$$
 ---
 <div class = 'text'>
-<b2><h3>Answers 2.2: </h3></b2>
+<b2><h3>Answers 2.2: Some non-homogeneous ones</h3></b2>
 </div>
 
 $$(a)\ y=A+Be^{6x}-\frac{x^3}{9}+\frac{x^2}{3}-\frac{17x}{108}$$
@@ -725,7 +747,7 @@ Find the particular solution to the following:
 
 ---
 <div class = 'text'>
-<b2><h3>Answers 2.3: </h3></b2>
+<b2><h3>Answers 2.3: Using boundary conditions</h3></b2>
 </div>
 
 $$(a)\ y=-\frac12 e^x+\frac12 e^{-x}+xe^x$$
@@ -776,7 +798,5 @@ Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
 ---
 
 <span style = 'font-size:3.77em; font-family:Edwardian Script ITC; color:rgb(238, 232, 213)'>
-
 Fin
-
 </span>
