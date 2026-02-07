@@ -25,7 +25,6 @@ A lot of this is used in physics (as we will see more in the next chapter). To g
 </span>
 
 ---
-
 <div>
 <h3> History:  </h6>
 </div>
@@ -50,9 +49,7 @@ where $y$ is an unknown function of $x$ (or $x_{1}, x_{2}$).
 <!-- .element: class="fragment" data-fragment index ="2"-->
 
 </span>
-
 ---
-
 <div>
 <h3> History:  </h6>
 </div>
@@ -74,14 +71,12 @@ After them, greats like Leonhard Euler, Daniel Bernoulli, and Joseph-Louis Lagra
 </span>
 
 ---
-
 <div class = 'text'>
 <b><h3>Chapter Objective</h3></b>
 
 - Solve First Order ODEs <!-- .element: class="fragment" -->
 - Solve Second Order ODEs <!-- .element: class="fragment" -->
 </div>
-
 ---
 ## Part 1: First Order Differential Equations: 
 ---
@@ -93,7 +88,6 @@ In this part, we will typically use $\frac{dy}{dx}$ to express our equations. Th
 <!-- .element: class="fragment" --> 
 
 ---
-
 <div>
 <h3> Example 1.1:  </h6>
 </div>
@@ -156,7 +150,17 @@ $$(a)\ \frac{dy}{dx}=x\cos ^{2} y$$
 $$(b)\ \frac{dy}{dx}=e ^{x+y}$$
 
 $$(c)\ \frac{dy}{dx}=e ^{x-y}$$
+---
 
+<div class = 'text'>
+<b2><h3>Answers 1.1</h3></b2>
+</div>
+
+$$(a) \tan{y}=\frac12x^2​+C$$
+
+$$(b)\ y=-\ln(C-e^x)$$
+
+$$(c)\ y=\ln{e^x+C}$$
 ---
 
 <div class = 'text'>
@@ -165,7 +169,7 @@ $$(c)\ \frac{dy}{dx}=e ^{x-y}$$
 
 Derive the equation for a discharging capacitor, given that at time $t=0$, charge $Q=Q_0$, by solving the following differential equation. 
 
-$\frac{dQ}{dt}R=\frac{Q}{C}$
+$\frac{dQ}{dt}R=-\frac{Q}{C}$
 
 
 <span style="font-size: 0.7em">
@@ -174,9 +178,7 @@ Note that all variables are $\ge 0$, and treat $R$ and $C$ as constants
 <!-- .element: class="fragment"-->
 
 </span>
-
 ---
-
 <div class = 'text'>
 <b2><h3>Practice 1.3: Charging Capacitor</h3></b2>
 </div>
@@ -191,13 +193,11 @@ Note that all variables are $\ge 0$, and treat $R$, $C$, and $\epsilon$ as const
 <!-- .element: class="fragment"-->
 
 </span>
-
 ---
 
 Unfortunately, not all first order differential equations are like the ones given above.
 
 ---
-
 <div class = 'text'>
 <b2><h3>Example 1.2: </h3></b2>
 </div>
@@ -238,7 +238,6 @@ By partial integration and some rearranging, we get $y=x-1+Ce^{-x}$
 </span>
 
 ---
-
 <span style="font-size:0.8em">
 
 For first order differential equations in the form of: 
@@ -260,9 +259,7 @@ It is worth noting that we can safely ignore the $+C$ for the integration on the
 <!-- .element: class="fragment"-->
 
 </span>
-
 --
-
 <span style="font-size:0.8em">
 
 We can easily prove the integrating factor. 
@@ -302,20 +299,30 @@ Hence: $f(x)=e ^{\int P(x)dx}$
 
 
 ---
-
 <div>
 <b><h3>Practice 1.4: Non-physics ones</h3></b>
 </div>
 Find the general solution to the following differential equations: 
 
-$$(a)\ 4xy\frac{dy}{dx}+2y^2=x^2$$
+$$(a)\ x^2\frac{dy}{dx}+2xy=2x+1$$
 
-$$(b)\ x^2\frac{dy}{dx}+2xy=2x+1$$
+$$(b) \frac{dy}{dx}+y\cot x =1$$
 
-$$(c) \frac{dy}{dx}+y\cot x =1$$
+$$(c)\ 4xy\frac{dy}{dx}+2y^2=x^2$$
 
 ---
 
+<div>
+<b><h3>Answers 1.4</h3></b>
+</div>
+
+$$(a)\ y=1-\frac1x +\frac{C}{x^2}$$
+
+$$(b)\ y=-\cot{x} + C\csc x$$
+
+$$(c)\ y^2=\frac{x^2}{6} + \frac{C}{x}$$
+
+---
 <div>
 <b><h3>Practice 1.5: Reattempt Charging Capacitor</h3></b>
 </div>
@@ -336,7 +343,6 @@ As an extension, think about why both methods worked for this differential equat
 <!-- .element: class="fragment"-->
 
 ---
-
 <div>
 <b><h3>Practice 1.6: Velocity-dependent Drag</h3></b>
 </div>
@@ -360,6 +366,7 @@ $$x\frac{dy}{dx}+5y=\frac{\ln x}{x}, \ x>0$$
 </div>
 
 --
+
 <!-- .slide: data-auto-animate -->
 <div>
 <b><h3>Exam Style Practice 1: </h3></b>
@@ -373,7 +380,7 @@ $$x\frac{dy}{dx}+5y=\frac{\ln x}{x}, \ x>0$$
 </div>
 
 <div>
-![ESP1MS](ESP1MS.png)
+![](assets/ESP1MS.png)
 </div>
 
 ---
@@ -408,7 +415,6 @@ $\Delta = b^{2} -4ac$
 <!-- .element: class="fragment"-->
 
 ---
-
 <div>
 <b><h3>General Solutions: </h3></b>
 </div>
@@ -432,7 +438,6 @@ $$y=e^{px}(A\cos qx+B\sin qx)$$
 <!-- .element: class="fragment" data-fragment-index="6"-->
 
 ---
-
 <div class = 'text'>
 <b2><h3>Example 2.1: </h3></b2>
 </div>
@@ -459,9 +464,8 @@ where $A, B$ are constants to be determined
 </span>
 
 ---
-
 <div>
-<b><h3>Practice 2.1: </h3></b>
+<b><h3>Practice 2.1: Some homogeneous ones</h3></b>
 </div>
 Find the general solution of the equations: 
 
@@ -469,7 +473,20 @@ $$(a)\ 2\frac{d^2y}{dx^2}+5\frac{dy}{dx}+3y=0$$
 
 $$(b)\ y''-6y'+9y=0$$
 
-$$(c)\ f''(x)-6f'(x)+34f(x)=0$$
+$$(c)\ \frac{d^2y}{dx^2}-6\frac{dy}{dx}+34y=0$$
+
+---
+
+<div>
+<b><h3>Answers 2.1: </h3></b>
+</div>
+
+$$(a)\ y=Ae^{-\frac{3}{2}x} + Be^{-x}$$
+
+$$(b)\ y=(A+Bx)e^{3x}$$
+
+$$(c)\ e^{3x}(A\cos{5x}+B\sin {5x})$$
+
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -489,7 +506,6 @@ This is called <span style="color: rgb(162, 73, 22)">Heterogeneous</span> (or <s
 <!-- .element: class="fragment" data-fragment-index="3"-->
 
 ---
-
 <span style='font-size:0.8em'>
 
 <!-- .slide: data-auto-animate -->
@@ -591,14 +607,25 @@ $$y=\text{C.F.}+\text{P.I.}=(Ax+B)e^{-x}+3$$
 
 ---
 <div class = 'text'>
-<b2><h3>Practice 2.2: </h3></b2>
+<b2><h3>Practice 2.2: Some non-homogeneous ones</h3></b2>
 </div>
+Find the general solution to the following equations: 
 
 $$(a)\ \frac{d^2y}{dx^2} - 6\frac{dy}{dx} = 2x^{2} - x + 1$$
 
 $$(b)\ \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = 25 \cos 2x$$
 
 $$(c)\ \frac{d^2y}{dx^2} - 2\frac{dy}{dx} = 3$$
+---
+<div class = 'text'>
+<b2><h3>Answers 2.2: </h3></b2>
+</div>
+
+$$(a)\ y=A+Be^{6x}-\frac{x^3}{9}+\frac{x^2}{3}-\frac{17x}{108}$$
+
+$$(b)\ y=(A+Bx)e^{-x} -3\cos{2x}+4\sin{2x}$$
+
+$$(c)\ y=A+Be^{2x}-\frac{3}{2}x$$
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -642,11 +669,10 @@ $$\frac{d^{2}y}{dx^{2}}+25y=3\cos5x$$
 
 </span>
 <div>
-![](ESP2MS.png)
+![](assets/ESP2MS.png)
 </div>
 
 ---
-
 So far we have ignored the constants. With additional information, we can also work out the particular solution to a differential equation using <span style="color: rgb(162, 73, 22)">boundary conditions</span>. 
 <!-- .element: class="fragment"-->
 
@@ -671,7 +697,7 @@ is $(Ax+B)e^{-x}+3$
 Using boundary conditions: $\frac{dy}{dx}=0$ and $y=0$ when $x=0$
 <!-- .element: class="fragment"-->
 
-$$y=0 \implies (A(0)+B)e^0 +3=0 \implies B=-3$$
+$$x=0, y=0 \implies (A(0)+B)e^{0} +3=0 \implies B=-3$$
 <!-- .element: class="fragment"-->
 
 $$\frac{dy}{dx}=Ae^{-x}-Axe^{-x}-Be^{-x}+3=0$$
@@ -687,7 +713,7 @@ Thus: $A = -6, B=-3$
 
 ---
 <div class = 'text'>
-<b2><h3>Practice 2.3: </h3></b2>
+<b2><h3>Practice 2.3: Using boundary conditions</h3></b2>
 </div>
 Find the particular solution to the following: 
 
@@ -698,6 +724,17 @@ Find the particular solution to the following:
 (c) $\frac{d^2y}{dx^2} +5\frac{dy}{dx} +6y = e^{-x}$, and that $\frac{dy}{dx} = 2$ and $y = 0$ when $x = 0$
 
 ---
+<div class = 'text'>
+<b2><h3>Answers 2.3: </h3></b2>
+</div>
+
+$$(a)\ y=-\frac12 e^x+\frac12 e^{-x}+xe^x$$
+
+$$(b)\ y=\frac{1}{18}\sin{3x}-\frac16 x \cos 3x$$
+
+$$(c)\ y= e^{-2x}-\frac32 e^{-3x}+\frac12 e^{-x}$$
+
+---
 <!-- .slide: data-auto-animate -->
 <div class = 'text'>
 <b2><h3>Exam Style Practice 3: </h3></b2>
@@ -706,14 +743,16 @@ Find the particular solution to the following:
 
 Following on Exam Practice 2: $\frac{d^{2}y}{dx^{2}} +25y=3\cos 5x$
 
-Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
-
 (c) Given that $x=0$, $y=0$, and $\frac{dy}{dx}=5$, find the particular solution to this differential equation, giving your solution in the form $y=f(x)$
+
+Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
+<!-- .element: class="fragment" -->
 
 </div>
 
 --
 <!-- .slide: data-auto-animate -->
+
 <span style='font-size: 0.7em'>
 <div class = 'text'>
 <b2><h3>Exam Style Practice 3: </h3></b2>
@@ -722,16 +761,16 @@ Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
 
 Following on Exam Practice 2: $\frac{d^{2}y}{dx^{2}} +25y=3\cos 5x$
 
-Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
-
 (c) Given that $x=0$, $y=0$, and $\frac{dy}{dx}=5$, find the particular solution to this differential equation, giving your solution in the form $y=f(x)$
+
+Remember the general solution is $y=A\cos 5x + B\sin 5x +\frac{3}{10}x\sin5x$
 
 </div>
 
 </span> 
 
 <div>
-![](ESP3MS.png)
+![](assets/ESP3MS.png)
 </div> 
 
 ---
