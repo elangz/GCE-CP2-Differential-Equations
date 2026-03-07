@@ -331,7 +331,7 @@ $$(c)\ 4xy\frac{dy}{dx}+2y^2=x^2$$
 <b><h3>Answers 1.4: Non-physics ones</h3></b>
 </div>
 
-$$(a)\ y=1-\frac1x +\frac{C}{x^2}$$
+$$(a)\ y=1+\frac1x +\frac{C}{x^2}$$
 
 $$(b)\ y=-\cot{x} + C\csc x$$
 
@@ -643,7 +643,7 @@ $$(c)\ \frac{d^2y}{dx^2} - 2\frac{dy}{dx} = 3$$
 <b2><h3>Answers 2.2: Some non-homogeneous ones</h3></b2>
 </div>
 
-$$(a)\ y=A+Be^{6x}-\frac{x^3}{9}+\frac{x^2}{3}-\frac{17x}{108}$$
+$$(a)\ y=A+Be^{6x}-\frac{x^3}{9}+\frac{x^2}{36}-\frac{17x}{108}$$
 
 $$(b)\ y=(A+Bx)e^{-x} -3\cos{2x}+4\sin{2x}$$
 
