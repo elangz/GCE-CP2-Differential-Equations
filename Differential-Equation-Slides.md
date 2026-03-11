@@ -372,7 +372,7 @@ Hint: $m\frac{dv}{dt} = mg - 10^{-7}v$
 <b><h3>Answers 1.6: Velocity-dependent Drag</h3></b>
 </div>
 
-$$v=10^{7} mg(1-e^{-\frac{k}{m}t})$$
+$$v=10^{7} mg(1-e^{-\frac{10^{7}}{m}t})$$
 
 ---
 <!-- .slide: data-auto-animate -->
