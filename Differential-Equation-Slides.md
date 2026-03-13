@@ -658,7 +658,7 @@ $$(c)\ y=A+Be^{2x}-\frac{3}{2}x$$
 
 <div>
 
-(a) Find the value of $\lambda$ for which $y=\lambda 5x\sin 5x$ is a particular integral solution of the differential equation 
+(a) Find the value of $\lambda$ for which $y=\lambda x\sin 5x$ is a particular integral solution of the differential equation 
 
 $$\frac{d^{2}y}{dx^{2}}+25y=3\cos5x$$
 
@@ -698,7 +698,7 @@ $$\frac{d^{2}y}{dx^{2}}+25y=3\cos5x$$
 So far we have ignored the constants. With additional information, we can also work out the particular solution to a differential equation using <span style="color: rgb(162, 73, 22)">boundary conditions</span>. 
 <!-- .element: class="fragment"-->
 
-The idea is to first find the general solution, then using the conditions to determine the constants. 
+The idea is to first find the general solution, then use the boundary conditions to determine the constants. 
 <!-- .element: class="fragment"-->
 
 ---
